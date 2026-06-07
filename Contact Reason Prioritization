@@ -1,0 +1,57 @@
+---
+nuclino_id: 223c54d9-2096-43dc-9ca8-2221dbd5827a
+title: "Contact Reason Prioritization"
+last_updated: 2026-06-05T19:48:28.891Z
+wiki_compiled: 2026-06-06
+category: procedures
+tags: [kustomer]
+summary: "Framework for determining when multiple contact reasons from the same customer interaction must be logged as separate conversations versus treated as a single interaction. Use this when a ticket contains more than one customer issue or question."
+related: []
+authoritative: false
+---
+
+> **Summary:** Framework for determining when multiple contact reasons from the same customer interaction must be logged as separate conversations versus treated as a single interaction. Use this when a ticket contains more than one customer issue or question.
+
+## Overview
+
+This framework determines when multiple [[Contact Reasons]] from the same interaction must be categorized separately, and when a contact reason does not need its own individual conversation logged.
+
+**Used in:** Kustomer
+**Applies to:** CH agents handling tickets where multiple topics arise
+
+---
+
+## Core Rule: Separate vs. Single Interaction
+
+| Scenario | Treatment |
+|---|---|
+| Multiple issues arrived **together in the same message** | **Single interaction** — one conversation, primary contact reason logged |
+| Multiple issues arrived **sequentially** (one after another, in separate exchanges) | **Separate interactions** — split into individual conversations, each categorized independently |
+
+---
+
+## Examples
+
+### Two Separate Interactions (split required)
+
+A customer asks a WISMO question → agent shares tracking info → customer then asks a product question.
+
+Even if both exchanges happened within a short time window, these are **two separate interactions**:
+1. Log and categorize the WISMO question first
+2. Split into a new conversation for the product question
+
+### Single Interaction (no split needed)
+
+A customer sends one email asking about separated shipment tracking *and* asking about the weight limit of her stools.
+
+Both requests came in together in the same message → this is a **single interaction**. Log one conversation with the primary contact reason.
+
+---
+
+## Why This Matters
+
+- Reduces unnecessary categorization work when customers bundle multiple questions around a primary issue
+- Ensures important concerns and resolutions are still tracked appropriately
+- Logging an additional conversation to capture important data or ongoing concerns is still permitted and encouraged when the situation warrants it
+
+---

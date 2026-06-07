@@ -1,92 +1,232 @@
-Status,Needed in AT?,Lowest Level,Duplicate Check,Level 3,Level 2,Level 1,Interaction Type,Interaction Subject,custom.metadata
-Active,Yes,Broken Parts,FALSE,,Broken Parts,Product Issue,Product Issue,Broken Parts,product_issue.broken_parts
-Active,Yes,Damaged in Transit,,,Damaged in Transit,Product Issue,Product Issue,Damaged in Transit,product_issue.damaged_in_transit
-Active,Yes,Defective,,,Defective,Product Issue,Product Issue,Defective,product_issue.defective
-Active,Yes,Surface Imperfections,,Surface Imperfections,Finishing,Product Issue,Product Issue,Finishing,product_issue.finishing.surface_imperfections
-Active,Yes,Color Mismatch Between Units or Parts,,Color Mismatch Between Units or Parts,Finishing,Product Issue,Product Issue,Finishing,product_issue.finishing.color_mismatch_between_units
-Active,Yes,Bubbling/Fraying Rattan or Textilene,,Bubbling/Fraying Rattan or Textilene,Finishing,Product Issue,Product Issue,Finishing,product_issue.finishing.bubbling_fraying_rattan_or_textilene
-Active,Yes,Missing Instructions,,,Missing Instructions,Product Issue,Product Issue,Missing Instructions,product_issue.missing_instructions
-Active,Yes,Missing Part,,,Missing Part,Product Issue,Product Issue,Missing Part,product_issue.missing_part
-Active,Yes,Missing / Wrong / Broken Hardware,,,Missing / Wrong / Broken Hardware,Product Issue,Product Issue,Missing / Wrong / Broken Hardware,product_issue.missing_wrong_broken_hardware
-Active,Yes,Unstable,,,Unstable,Product Issue,Product Issue,Unstable,product_issue.unstable
-Active,Yes,Wrong Part,,,Wrong Part,Product Issue,Product Issue,Wrong Part,product_issue.wrong_part
-Active,Yes,Did not receive,,,Did not receive,Order Issue,Order Issue,Did not receive,order_issue.did_not_receive
-Active,Yes,Lost in transit,,,Lost in transit,Order Issue,Order Issue,Lost in transit,order_issue.lost_in_transit
-Active,Yes,Rec. Duplicate,,,Rec. Duplicate,Order Issue,Order Issue,Rec. Duplicate,order_issue.rec_duplicate
-Active,Yes,Rec. Wrong Item,,,Rec. Wrong Item,Order Issue,Order Issue,Rec. Wrong Item,order_issue.rec_wrong_item
-Inactive,No,Delayed delivery,,,Delayed delivery,Order Issue,,,
-Active,Yes,Match Shopify Price,,Match Shopify Price,Pre-Purchase Price Inquiry,Sales Issue,Sales Issue,Price Match,sales_issue.pre_purchase_price_inquiry.match_shopify_price
-Active,Yes,Match Retailer Price,,Match Retailer Price,Pre-Purchase Price Inquiry,Sales Issue,Sales Issue,Price Match,sales_issue.pre_purchase_price_inquiry.match_retailer_price
-Active,Yes,Adjust to Shopify Price,,Adjust to Shopify Price,Post-Purchase Price Inquiry,Sales Issue,Sales Issue,Price Match,
-Active,Yes,Adjust to Retailer Price,,Adjust to Retailer Price,Post-Purchase Price Inquiry,Sales Issue,Sales Issue,Price Match,
-Active,Yes,Content/Expectations,,,Content/Expectations,Sales Issue,Sales Issue,Content/Expectations,sales_issue.content_expectations
-Active,No,OOS,,,OOS,Sales Issue,,,sales_issue.oos
-Inactive,No,Price Adjustment,,,Price Adjustment,Sales Issue,Sales Issue,Price Match,
-Inactive,No,Price Match,,,Price Match,Sales Issue,Sales Issue,Price Match,
-Active,No,Cancelled Order,,,,Cancelled Order,,,cancelled_order
-Inactive,No,No reason given,,,No reason given,Cancelled Order,,,
-Inactive,No,I didn't measure correctly,,,I didn't measure correctly,Cancelled Order,,,
-Inactive,No,I didn't realize it was backordered,,,I didn't realize it was backordered,Cancelled Order,,,
-Inactive,No,I placed a duplicate order,,,I placed a duplicate order,Cancelled Order,,,
-Inactive,No,The order was placed without my permission,,,The order was placed without my permission,Cancelled Order,,,
-Inactive,No,I need to change item on my order,,,I need to change item on my order,Cancelled Order,,,
-Inactive,No,I want to purchase a different product (competitor),,,I want to purchase a different product (competitor),Cancelled Order,,,
-Inactive,No,This was an accidental order,,,This was an accidental order,Cancelled Order,,,
-Inactive,No,I changed my mind,,,I changed my mind,Cancelled Order,,,
-Inactive,No,I used the wrong payment method,,,I used the wrong payment method,Cancelled Order,,,
-Active,No,Address Change,,,Address Change,Order Modification,,,order_modification.address_change
-Active,No,In Trans Address Change,,,In Trans Address Change,Order Modification,,,order_modification.in_trans_address_change
-Active,Yes,Return to Sender,,,Return to Sender,Order Modification,Return,Buyer Remorse,order_modification.return_to_sender
-Active,No,Item Removal,,,Item Removal,Order Modification,,,order_modification.item_removal
-Inactive,No,Item Change,,,Item Change,Order Modification,,,order_modification.item_change
-Active,No,Order Verification,,,Order Verification,Order Modification,,,order_modification.order_verification
-Active,No,Bulk Order Sample/Return Policy Acknowledgement,,,Bulk Order Sample/Return Policy Acknowledgement,Order Modification,,,
-Active,No,Verify Possible Duplicate Order,,,Verify Possible Duplicate Order,Order Modification,,,
-Active,No,Backorder Update,,Backorder Update,Where's my stuff,Question,,,
-Active,No,Non-Backorder Update,,Non-Backorder Update,Where's my stuff,Question,,,question.wheres_my_stuff.non_backorder_update
-Active,No,Separated Shipments,,Separated Shipments,Where's my stuff,Question,,,question.wheres_my_stuff.split_shipments1
-Active,No,Zone-Skip Confusion,,Zone-Skip Confusion,Where's my stuff,Question,,,question.wheres_my_stuff.zone_skip_confusion
-Inactive,No,Other,,Other,Where's my stuff,Question,,,
-Active,Yes,Product Question,,,Product Question,Question,Question,,question.product_question
-Active,No,Initiate Physical Return/General Return Policy Question,,Initiate Physical Return/General Return Policy Question,Return Question,Question,,,question.return_question.initiate_physical_return_general_return_policy_question
-Active,No,Need More Labels,,Need More Labels,Return Question,Question,,,question.return_question.need_more_labels
-Active,No,Refund Not Processed Automatically,,Refund Not Processed Automatically,Return Question,Question,,,question.return_question.refund_not_processed_automatically
-Active,No,Schedule or Reschedule Pickup Only,,Schedule or Reschedule Pickup Only,Return Question,Question,,,question.return_question.schedule_or_reschedule_pickup_only
-Active,No,Other Return Question (Explain below),,Other Return Question (Explain below),Return Question,Question,,,
-Active,No,Payment/Coupon Question,,,Payment/Coupon Question,Question,,,question.payment_question
-Active,No,Shipping/Assembly Options,,,Shipping/Assembly Options,Question,,,question.shipping_options_services
-Active,No,Trade Account/Designer Discount,,,Trade Account/Designer Discount,Question,,,question.trade_account_discount
-Active,No,Product Availability,,,Product Availability,Question,,,question.product_availability
-Inactive,No,Warranty Question,,,Warranty Question,Question,,,
-Active,No,Warranty Registration/General Warranty Info,,,Warranty Registration/General Warranty Info,Question,,,question.warranty_registration_general_warranty_info
-Active,No,Tax Exempt Inquiry,,,Tax Exempt Inquiry,Question,,,
-Active,No,Bulk Order,,,Bulk Order,Question,,,
-Active,Yes,(No SKU) Materials/Certifications Question,,,(No SKU) Materials/Certifications Question,Question,Question,,
-Inactive,No,Misc Question,,,Misc Question,Question,,,
-Active,No,Positive/Neutral,,Positive/Neutral,No Action Comment,Community,,,
-Active,No,Negative (No Response),,Negative (No Response),No Action Comment,Community,,,
-Active,No,Social Sweepstakes/Promo,,,Social Sweepstakes/Promo,Community,,,
-Active,No,Collab Request,,,Collab Request,Community,,,
-Active,No,B2B Influencer Giveaway,,,B2B Influencer Giveaway,Community,,,
-Active,No,TikTok Influencer Giveaway,,,TikTok Influencer Giveaway,Community,,,
-Active,No,Social Media Giveaway,,,Social Media Giveaway,Community,,,
-Active,Yes,Waived Physical Return (Return Alternative),,,,Waived Physical Return (Return Alternative),Return,Buyer Remorse,return
-Active,Yes,Persistent Odor/Smell,,,Persistent Odor/Smell,Feedback,Feedback,,feedback.persistent_odor_smell
-Active,Yes,General Feedback,,,General Feedback,Feedback,Feedback,,feedback.general_feedback
-Active,Yes,Product Requests/Suggestions,,,Product Requests/Suggestions,Feedback,Feedback,,feedback.product_requests_suggestions
-Active,Yes,Assembly Trouble,,,Assembly Trouble,Feedback,Feedback,,feedback.assembly_trouble
-Active,Yes,Sensitive Issue,,,Sensitive Issue,Feedback,Feedback,,feedback.sensitive_issue_report
-Active,No,Miscellaneous,,,Miscellaneous,Non-Customer,,,
-Active,No,Marketing,,,Marketing,Non-Customer,,,
-Active,No,Free Charity Order/GC,,,Free Charity Order/GC,Non-Customer,,,
-Active,No,Hiring/Employment,,,Hiring/Employment,Non-Customer,,,
-Inactive,No,Spam,,,Spam,Non-Customer,,,
-Active,No,Notification,,,Notification,Non-Customer,,,
-Inactive,No,Callback,,,Callback,Non-Customer,,,
-Active,No,Testing,,,Testing,Non-Customer,,,
-Active,No,Auto-Closed,,,Auto-Closed,Non-Customer,,,
-Active,No,Missed Call Callback,,,,Missed Call Callback,,,
-Active,No,Incomplete Info,,,,Incomplete Info,,,
-Inactive,No,Tracking Request,,,Tracking Request,Where's My Stuff,,,
-Inactive,No,Split Shipments,,,Split Shipments,Where's My Stuff,,,
-Inactive,No,Backorder Confusion,,,Backorder Confusion,Where's My Stuff,,,
+{
+  "description": "Use metadata_value as the exact string for the contactReasonTree field in Kustomer. Do not modify or guess values \u2014 only use values from this list.",
+  "contact_reasons": [
+    {
+      "display_name": "Broken Parts",
+      "interaction_type": "Product Issue",
+      "metadata_value": "product_issue.broken_parts"
+    },
+    {
+      "display_name": "Damaged in Transit",
+      "interaction_type": "Product Issue",
+      "metadata_value": "product_issue.damaged_in_transit"
+    },
+    {
+      "display_name": "Defective",
+      "interaction_type": "Product Issue",
+      "metadata_value": "product_issue.defective"
+    },
+    {
+      "display_name": "Surface Imperfections",
+      "interaction_type": "Product Issue",
+      "metadata_value": "product_issue.finishing.surface_imperfections",
+      "interaction_subject": "Finishing"
+    },
+    {
+      "display_name": "Color Mismatch Between Units or Parts",
+      "interaction_type": "Product Issue",
+      "metadata_value": "product_issue.finishing.color_mismatch_between_units",
+      "interaction_subject": "Finishing"
+    },
+    {
+      "display_name": "Bubbling/Fraying Rattan or Textilene",
+      "interaction_type": "Product Issue",
+      "metadata_value": "product_issue.finishing.bubbling_fraying_rattan_or_textilene",
+      "interaction_subject": "Finishing"
+    },
+    {
+      "display_name": "Missing Instructions",
+      "interaction_type": "Product Issue",
+      "metadata_value": "product_issue.missing_instructions"
+    },
+    {
+      "display_name": "Missing Part",
+      "interaction_type": "Product Issue",
+      "metadata_value": "product_issue.missing_part"
+    },
+    {
+      "display_name": "Missing / Wrong / Broken Hardware",
+      "interaction_type": "Product Issue",
+      "metadata_value": "product_issue.missing_wrong_broken_hardware"
+    },
+    {
+      "display_name": "Unstable",
+      "interaction_type": "Product Issue",
+      "metadata_value": "product_issue.unstable"
+    },
+    {
+      "display_name": "Wrong Part",
+      "interaction_type": "Product Issue",
+      "metadata_value": "product_issue.wrong_part"
+    },
+    {
+      "display_name": "Did not receive",
+      "interaction_type": "Order Issue",
+      "metadata_value": "order_issue.did_not_receive"
+    },
+    {
+      "display_name": "Lost in transit",
+      "interaction_type": "Order Issue",
+      "metadata_value": "order_issue.lost_in_transit"
+    },
+    {
+      "display_name": "Rec. Duplicate",
+      "interaction_type": "Order Issue",
+      "metadata_value": "order_issue.rec_duplicate"
+    },
+    {
+      "display_name": "Rec. Wrong Item",
+      "interaction_type": "Order Issue",
+      "metadata_value": "order_issue.rec_wrong_item"
+    },
+    {
+      "display_name": "Match Shopify Price",
+      "interaction_type": "Sales Issue",
+      "metadata_value": "sales_issue.pre_purchase_price_inquiry.match_shopify_price",
+      "interaction_subject": "Price Match"
+    },
+    {
+      "display_name": "Match Retailer Price",
+      "interaction_type": "Sales Issue",
+      "metadata_value": "sales_issue.pre_purchase_price_inquiry.match_retailer_price",
+      "interaction_subject": "Price Match"
+    },
+    {
+      "display_name": "Content/Expectations",
+      "interaction_type": "Sales Issue",
+      "metadata_value": "sales_issue.content_expectations"
+    },
+    {
+      "display_name": "OOS",
+      "interaction_type": "Sales Issue",
+      "metadata_value": "sales_issue.oos"
+    },
+    {
+      "display_name": "Cancelled Order",
+      "interaction_type": "Cancelled Order",
+      "metadata_value": "cancelled_order"
+    },
+    {
+      "display_name": "Address Change",
+      "interaction_type": "Order Modification",
+      "metadata_value": "order_modification.address_change"
+    },
+    {
+      "display_name": "In Trans Address Change",
+      "interaction_type": "Order Modification",
+      "metadata_value": "order_modification.in_trans_address_change"
+    },
+    {
+      "display_name": "Return to Sender",
+      "interaction_type": "Return",
+      "metadata_value": "order_modification.return_to_sender",
+      "interaction_subject": "Buyer Remorse"
+    },
+    {
+      "display_name": "Item Removal",
+      "interaction_type": "Order Modification",
+      "metadata_value": "order_modification.item_removal"
+    },
+    {
+      "display_name": "Order Verification",
+      "interaction_type": "Order Modification",
+      "metadata_value": "order_modification.order_verification"
+    },
+    {
+      "display_name": "Non-Backorder Update",
+      "interaction_type": "Question",
+      "metadata_value": "question.wheres_my_stuff.non_backorder_update"
+    },
+    {
+      "display_name": "Separated Shipments",
+      "interaction_type": "Question",
+      "metadata_value": "question.wheres_my_stuff.split_shipments1"
+    },
+    {
+      "display_name": "Zone-Skip Confusion",
+      "interaction_type": "Question",
+      "metadata_value": "question.wheres_my_stuff.zone_skip_confusion"
+    },
+    {
+      "display_name": "Product Question",
+      "interaction_type": "Question",
+      "metadata_value": "question.product_question"
+    },
+    {
+      "display_name": "Initiate Physical Return/General Return Policy Question",
+      "interaction_type": "Question",
+      "metadata_value": "question.return_question.initiate_physical_return_general_return_policy_question"
+    },
+    {
+      "display_name": "Need More Labels",
+      "interaction_type": "Question",
+      "metadata_value": "question.return_question.need_more_labels"
+    },
+    {
+      "display_name": "Refund Not Processed Automatically",
+      "interaction_type": "Question",
+      "metadata_value": "question.return_question.refund_not_processed_automatically"
+    },
+    {
+      "display_name": "Schedule or Reschedule Pickup Only",
+      "interaction_type": "Question",
+      "metadata_value": "question.return_question.schedule_or_reschedule_pickup_only"
+    },
+    {
+      "display_name": "Payment/Coupon Question",
+      "interaction_type": "Question",
+      "metadata_value": "question.payment_question"
+    },
+    {
+      "display_name": "Shipping/Assembly Options",
+      "interaction_type": "Question",
+      "metadata_value": "question.shipping_options_services"
+    },
+    {
+      "display_name": "Trade Account/Designer Discount",
+      "interaction_type": "Question",
+      "metadata_value": "question.trade_account_discount"
+    },
+    {
+      "display_name": "Product Availability",
+      "interaction_type": "Question",
+      "metadata_value": "question.product_availability"
+    },
+    {
+      "display_name": "Warranty Registration/General Warranty Info",
+      "interaction_type": "Question",
+      "metadata_value": "question.warranty_registration_general_warranty_info"
+    },
+    {
+      "display_name": "Waived Physical Return (Return Alternative)",
+      "interaction_type": "Return",
+      "metadata_value": "return",
+      "interaction_subject": "Buyer Remorse"
+    },
+    {
+      "display_name": "Persistent Odor/Smell",
+      "interaction_type": "Feedback",
+      "metadata_value": "feedback.persistent_odor_smell"
+    },
+    {
+      "display_name": "General Feedback",
+      "interaction_type": "Feedback",
+      "metadata_value": "feedback.general_feedback"
+    },
+    {
+      "display_name": "Product Requests/Suggestions",
+      "interaction_type": "Feedback",
+      "metadata_value": "feedback.product_requests_suggestions"
+    },
+    {
+      "display_name": "Assembly Trouble",
+      "interaction_type": "Feedback",
+      "metadata_value": "feedback.assembly_trouble"
+    },
+    {
+      "display_name": "Sensitive Issue",
+      "interaction_type": "Feedback",
+      "metadata_value": "feedback.sensitive_issue_report"
+    }
+  ]
+}

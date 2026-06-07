@@ -155,3 +155,17 @@ If you are unsure how to categorize an interaction, reach out to your CH Lead or
 | **Missed Callback** | Selected when we call back after a missed call but the customer did not pick up. Do not use "Incomplete Info" for this purpose. | Only used if we do not have a recent conversation to merge the callback into. |
 
 ---
+
+## Inquiry Medium in Airtable
+
+The communication channel from which Nathan James received an interaction.
+
+| Inquiry Medium | Description |
+|---|---|
+| **CH Ticket** | Kustomer ticket via email, chat, or phone call |
+| **Retailer Portal** | Retailer portals |
+| **Customer Review** | Review from a retailer website |
+| **Retailer Report** | Information from a report provided by a retailer |
+| **Payment Remittance** | Interactions whose source came from a retailer remittance advice |
+| **Influencer** | Information provided by an influencer |
+| **Internal** | Product issue submitted by Nathan James or friends/family |
